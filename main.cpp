@@ -115,7 +115,7 @@ int main() {
 			UVArray.push_back(tempUVArray[vertexIndex]);
 			normalArray.push_back(tempNormalArray[vertexIndex]);
 
-			indexArray.push_back(vertexIndex);
+			indexArray.push_back(0);
 			continue;
 		}
 		for (int j = 0; j < i; ++j) {
